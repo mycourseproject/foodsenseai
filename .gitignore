@@ -81,3 +81,13 @@ test1.html
 # Keep test scripts but ignore their output
 !test_api.py
 !upload_img.py
+
+# Backup and version files
+*_rl
+*_rlv*
+*_basic_form
+test-api*.js
+
+# Mobile app sensitive files
+foodsense-mobile/google-services.json
+foodsense-mobile/firebaseConfig.js
